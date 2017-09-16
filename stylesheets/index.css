@@ -1,4 +1,8 @@
 header {
-    height: 75px;
-    background-color: #5cc3ff;
+  height: 75px;
+  background-color: #5cc3ff;
+}
+
+.how-to-surf-title {
+  text-align: center;
 }
