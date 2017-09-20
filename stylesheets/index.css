@@ -1,8 +1,31 @@
-header {
-  height: 75px;
-  background-color: #5cc3ff;
-}
-
 .how-to-surf-title {
   text-align: center;
+}
+
+input {
+  display: none;
+}
+
+span#step1-content {
+  display: block;
+}
+
+span#step2-content {
+  display: none;
+}
+
+input#step1:checked ~ span#step1-content{
+  display: block;
+}
+
+input#step1:checked ~ span#step2-content{
+  display: none;
+}
+
+input#step2:checked ~ span#step1-content{
+  display: none;
+}
+
+input#step2:checked ~ span#step2-content{
+  display: block;
 }
